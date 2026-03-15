@@ -10,8 +10,8 @@
 <body>
     <h1 class="visually-hidden">Nested Grid & Flexbox Example</h1>
     
-    <!-- Header -->
     <div class="light-blue">
+        <!-- Header -->
         <header class="grid-con center-grid-con">            
         
             <!-- Hamburger Menu -->
@@ -44,6 +44,35 @@
     </div>
 
     
+    <main>
+        <!-- Hero Image -->
+        <div class="full-width-grid-con">
+            <img
+            sizes="100vw"
+            srcset="
+            images/products-hero_n46h6h_c_scale,w_412.png 412w,
+            images/products-hero_n46h6h_c_scale,w_811.png 811w,
+            images/products-hero_n46h6h_c_scale,w_1126.png 1126w,
+            images/products-hero_n46h6h_c_scale,w_1406.png 1406w,
+            images/products-hero_n46h6h_c_scale,w_1731.png 1731w,
+            images/products-hero_n46h6h_c_scale,w_1920.png 1920w"
+            src="products-hero_n46h6h_c_scale,w_1920.png"
+            alt="Orbitz bottle in circle with the text 'shop' and an orange background"
+            class="col-span-full"
+            id="hero-image">
+
+            <!-- Nested Grid Text -->
+            <section id="nested-hero-grid" class="grid-con">
+                <div class="col-span-full">
+                    <h2>Daily Refreshments</h2>
+                    <p>Check out our current deals and special offers!</p>
+                    <div id="button">
+                        <a href="#" >View Offers</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
     <script src="js/main.js"></script>
 </body>
 </html>
