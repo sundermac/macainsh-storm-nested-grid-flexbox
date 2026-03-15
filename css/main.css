@@ -192,3 +192,35 @@ header {
         font-size: 20px;
     }
 }
+
+
+
+/* 6. --Desktop Queries-- */
+@media screen and (min-width: 1200px) {
+    
+    /* --Main Nav-- */
+    #main-nav ul li a {
+        font-size: 25px;
+    }    
+    
+    
+    /* --Hero Image-- */
+    #nested-hero-grid h2 {
+        font-size: 50px;
+    }
+
+    #nested-hero-grid p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    #button a {
+        padding-bottom: 10px;
+        width: 369px;
+        font-size: 30px;
+    }
+
+    #button a:hover {
+    background-color: #2A4775;
+    }
+}
