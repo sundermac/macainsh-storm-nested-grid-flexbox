@@ -72,3 +72,62 @@ header {
     width: 30px;
     cursor: pointer;
 }
+
+
+
+/* 4. --Hero Image-- */
+#hero-image {
+    justify-self: center;
+    grid-row: 1;
+}
+
+#nested-hero-grid {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+#nested-hero-grid div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#nested-hero-grid h2 {
+    color: #fff;
+    font-family: "ohno-softie-variable",sans-serif;
+    font-size: 25px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+#nested-hero-grid p {
+    color: #fff;
+    font-family: josefin-sans, sans-serif;
+    font-size: 11px;
+    text-align: right;
+    margin-bottom: 10px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+#button {
+    align-self: end;    
+    font-family: josefin-sans, sans-serif;
+}
+
+#button a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #E27184;
+    padding-bottom: 4px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: .3s all ease-in;
+}
